@@ -1,0 +1,274 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*=================// BOX //=====================*/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.container {
+	margin: 0 auto;
+	width: 1200px;
+	position: relative;
+}
+.hero {
+	padding: 35px 70px;
+	margin: 0 auto;
+}	
+.col-1 {
+	width: 50%;
+	padding-right: 30px;
+}
+.col-2 {
+	width: 50%;
+	padding-left: 30px;
+}
+.col-1, .col-2 {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 auto;
+	padding-bottom: 135px;
+}
+body {
+	background-color: #fff;
+}
+.logo {
+	display: inline-block;
+	float: left;
+	font-family: Calibri;
+	font-size: 30px;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: #000;
+	font-family: 'PT Serif', serif;
+    font-family: 'Inconsolata', monospace;
+    letter-spacing: 4px;
+
+}
+nav {
+	padding: 3px 0;
+}
+nav ul a {
+	display: inline-block;
+	margin:0px 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	float: right;
+	font: 400 14px "Playfair Display";
+	line-height: 14px;
+	text-transform: uppercase;
+	
+}
+a:link, :visited {
+	text-decoration: none;
+	color: #626262;
+}
+a:hover, :active {
+	text-decoration: none;
+	color: #000;
+}
+.end {
+	padding-right: 0px;
+	margin-right: 0px;
+}
+.logo a:link, :hover, :active, :visited {
+	text-decoration: none;
+	color: #000;
+}    
+header img {
+	display: block;
+	margin: 100px 0;
+	width: 100%;
+	height: auto;
+}
+.post-area {
+	margin: 0 auto;
+	padding: 0 150px;
+}
+section {
+	padding-bottom: 135px;	
+}
+h3 {
+	display: inline-block;
+	padding: 30px 0;
+	color: #d9d6ce;
+	font: 14px "Ubuntu Light";
+	text-transform: uppercase;
+}
+h1 {
+	padding-bottom: 40px;
+	color: #626262;
+	font:400 30px "Playfair Display";
+}
+p {
+	font: 400 14px "Playfair Display";
+	color: #626262;
+	text-align: justify;
+}
+p strong {
+	font-weight: 700;
+}
+p cite {
+	display: inline-block;
+	padding: 0 20px;
+	font-style: italic;
+}
+section img {
+	display: inline-block;
+	margin: 0  auto;
+	width: 100%;
+	height: auto;
+	padding: 0;
+}
+h2 form {
+	color: #000;
+}
+form {
+	width: 100%;
+	background-color: #f0f0f0;
+	margin: 0 auto;
+	padding: 74px 0;
+	text-align: center;
+	color: #000;
+	margin-bottom: 100px;
+}
+h2 form {
+	color: #000;
+}
+input {
+	background-color: #f0f0f0;
+	width: 400px;
+	padding-bottom: 14px;
+	border: none;
+	border-bottom: solid 1px black;
+	font-size: 400 14px "Playfair Display";
+	color: #626262;`
+}
+button {
+	display: flex;
+	font: 400 20px "Playfair Display";
+	background-color: #fff;
+	color: #626262; 
+	padding: 22px 33px;
+	margin: 0 auto;
+	border: solid 1px #626262;
+	margin-bottom: 135px;
+}
+footer {
+	display: block;
+	width: 100%;
+	background-color: #f0f0f0;
+	color: #000;
+	padding: 40px 0px;
+}
+.left {
+	float: left;
+	font:400 14px "Playfair Display";
+	padding-right: 10px;
+	margin-right: 7px;
+}
+.submit {
+	display: inline-block;
+	background-color: none;
+	border: none;
+	width: 30px;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	float: right;
+}
+.right p { 
+	display: inline-block;
+	float: right;
+	font: 400 14px "Playfair Display";
+	color: #000;
+	padding-right: 12px;
+}
+.right img {
+	display: inline-block;
+	float: right;
+	width: 20px;
+	height: auto;
+	margin: 0 10px;
+	padding: 3px 2px;
+}
+.single-post {
+	padding: 0;
+}
+.single-post p {
+	padding-bottom: 68px;
+}
+.single-post img {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding-bottom: 68px;
+}
+.share {
+	display: flex;
+	align-items: center;
+	float: right;
+	margin-bottom: 78px;
+}
+.share h3 {
+	font-size: 13px;
+	margin-right: 11px;
+}
+.share img {
+	width: 15px;
+	height: auto;
+	
+}
+.share a {
+	padding: 1px 3px;
+	margin-right: 5px; 
+}
